@@ -1,0 +1,24 @@
+# Getting and Cleaning Data - Course Project
+
+This is the course project for the Getting and Cleaning Data Coursera course. The R script, run_analysis.R, does the following:
+
+1. Get the data.
++ Download the file and put the file in the data folder.
+2. Read data from the targeted files.
++ Get the big picture of the structure of the data frame that will be used in this project.
++ Read data from the files into the variables.
+3. Merges the training and the test sets to create one data set.
++ Concatenate the data tables by rows.
++ set names to variables.
++ Merge columns to get the data frame Data for all data.
+4. Extracts only the measurements on the mean and standard deviation for each measurement.
++ Subset Name of Features by measurements on the mean and standard deviation.
+* Subset the data frame Data by seleted names of Features.
+5. Uses descriptive activity names to name the activities in the data set.
++ Read descriptive activity names from "activity_labels.txt".
++ facorize Variale activity in the data frame Data using descriptive activity names.
+6. Appropriately labels the data set with descriptive variable names.
+7. Creates a second,independent tidy data set and ouput it.
+
+
+The end result is shown in the file tidy.txt.
